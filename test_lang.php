@@ -1,5 +1,5 @@
 <?php
-$fichier = "test.php";
+$fichier = "index.php";
 
 if (file_exists($fichier) && is_readable($fichier)) {
     $contenu = file_get_contents($fichier);
